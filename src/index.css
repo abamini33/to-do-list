@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: cyberpunk --default;
+}
+@plugin "daisyui/theme" {
+  name: "cyberpunk";
+  default: true;
+  color-scheme: dark;
+  --color-base-100: oklch(14% 0.05 269);
+  --color-base-200: oklch(17% 0.055 269);
+  --color-base-300: oklch(20% 0.06 269);
+  --color-base-content: oklch(94.51% 0.179 104.32);
+}
